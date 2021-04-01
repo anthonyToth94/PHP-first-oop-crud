@@ -1,0 +1,146 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	overflow:hidden; /* olvadjanak egybe a hátterek */
+	box-sizing:border-box; /* a borderekkel együtt legyen a %-os érték */
+
+	color:white;
+	font-family:sans-serif,Arial;
+	font-size:20px;
+	line-height:1.3em;
+	background-color:#ff0000;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+}
+
+#container2{
+	width:50%;
+	margin:auto;
+}
+.clearfix{
+	clear:both;
+}
+ul{
+	list-style-type:none;
+}
+a{
+	text-decoration:none;
+}
+
+header{  
+    height:60px;
+    background-color:#B42B19;
+    /* display:block; */
+}
+main{
+	/* azért nincs height, mert a belseje szétnyomja, akkorára, hogy nekem jó legyen */
+	background-color:#ff3333;
+}
+footer{
+    height:60px;
+	background-color:#B42B19;
+	position:relative;
+	/*display:block;*/
+}
+
+header h2{
+	margin-top:15px;
+	font-size:30px;
+
+	float:left;
+	width:40%;
+}
+nav{
+	float:right;
+	margin-top:9px;
+	/* width:auto; */
+}
+ul li{
+	float:left;
+	margin-right:10px;
+}
+ul li a{
+	font-size:25px;
+	padding:6px;
+	color:white;
+
+	display:block;
+	transition:1s;
+}
+ul li a:hover{
+	color:orange;
+}
+
+main h1{
+	font-size:40px;
+	text-align:center;
+	padding:30px 0px;
+}
+main input[type=text], input[type=email], input[type=password] {
+	width:100%;
+	height:30px;
+
+	margin-bottom:10px;
+	font-size:20px;
+	font-weight:bold;
+} 
+
+main input[type=radio]{
+	margin-right:20px;
+
+	cursor:pointer;
+}
+
+main input[type=submit]{
+	font-size:30px;
+	background-color:#B42B19;
+	color:white;
+	padding:10px 20px;
+	border:none;
+	padding-bottom:10px;
+	margin-bottom:15px;
+	cursor:pointer;
+	transition:1s;
+}
+main input[type=submit]:hover{
+	color:orange;
+}
+#submitButton{
+	text-align:center;
+}
+main select{
+	font-size:20px;
+	color:black;
+	background-color:orange;
+	border:1px solid white;
+
+	cursor:pointer
+}
+footer p{
+	position:absolute;
+	left:47%;
+	top:25%;
+}
+/* Logout button */
+.logout{
+	text-align:center; 
+	padding-bottom:20px;
+}
+
+.logout a{
+	font-size:30px;
+	background-color:#B42B19;
+	color:white;
+	padding:10px 20px;
+	border:none;
+	cursor:pointer;
+	transition:1s;
+}
+.logout a:hover{
+	color:orange;
+}
